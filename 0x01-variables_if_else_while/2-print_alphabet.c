@@ -9,9 +9,9 @@ int main (void)
 	char l;
 
 	for (l='a' ;l<='z' ;l++)
-		puchr(l);
+		puchar(l);
 
-	puchr('\n');
+	puchar('\n');
 
 	return (0);
 }	
