@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main - print numbers
+ * main - main block print numbers
  * Describtion: using putchar to print numbers
  * Return: Always 0.
 */
