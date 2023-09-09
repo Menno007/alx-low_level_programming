@@ -14,7 +14,7 @@ int main(void)
 		if (x < 57)
 		{
 			putchar(',');
-			putchar('\b');
+			putchar(' ');
 		}	
 	}
 
