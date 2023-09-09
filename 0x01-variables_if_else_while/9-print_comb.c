@@ -1,9 +1,9 @@
 #include <stdio.h>
-/*
+/**
  * main - main block print numbers
  * Description: using putchar to print numbers.
  * Return: Always 0.
-**/
+*/
 int main(void)
 {
 	int x;
