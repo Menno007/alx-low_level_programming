@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_sign - writes the character c to stdout
- * @c: The number to print it's sign
+ * @n: The number to print it's sign
  * Return: Always 0.
  */
 int print_sign(int n)
