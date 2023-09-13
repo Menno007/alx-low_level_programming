@@ -5,7 +5,7 @@
  *Description: print _putchar with putchar
  *Return: Always 0.
  **/
-inti main(void)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
