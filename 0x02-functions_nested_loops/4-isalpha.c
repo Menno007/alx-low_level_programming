@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_islower- function compare lower
+ *_isalpha - function compare lower or upper
  *@c: is character checker
  *Return: Always 0.
  */
