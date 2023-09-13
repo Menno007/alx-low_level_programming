@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *_islower- function compare lower
- *
+ *@c: is character checker
  *Return: Always 0.
  */
 int _islower(int c)
