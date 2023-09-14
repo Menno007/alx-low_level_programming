@@ -8,8 +8,9 @@
  */
 int mul(int a, int b)
 {
-	int sum;
-	sum = a * b;
+	int kill;
 
-	return (sum);
+	kill = a * b;
+
+	return (kill);
 }
