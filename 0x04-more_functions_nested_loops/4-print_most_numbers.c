@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_numbers - blablabla
+ * print_most_numbers - blablabla
  *
  * Description: blablabla
  *
