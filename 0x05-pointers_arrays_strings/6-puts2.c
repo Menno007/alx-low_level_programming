@@ -10,6 +10,6 @@ void puts2(char *str)
 
 	for ( ;s[len] != '\0' ; len = len + 2 /* len +=2 */ )
 	{
-		printf("%c \n", s[len]);
+		_putchar(s[len]);
 	}
 }
