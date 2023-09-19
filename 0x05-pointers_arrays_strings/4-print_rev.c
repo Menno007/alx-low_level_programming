@@ -18,23 +18,3 @@ void print_rev(char *s)
         }
         _putchar('\n');
 }
-~                                                                                                                                                         
-~                                                                                                                                                         
-~                                                                                                                                                         
-~                                                                                                                                                         
-~                                                                                                                                                         
-~                                                                                                                                                         
-~                                                                                                                                                         
-~                                                                                                                                                         
-~                                                                                                                                                         
-~                                                                                                                                                         
-~                                                                                                                                                         
-~                                                                                                                                                         
-~                                                                                                                                                         
-~                                                                                                                                                         
-~                                                                                                                                                         
-~                                                                                                                                                         
-~                                                                                                                                                         
-~                                                                                                                                                         
-~                                                                                                                                                         
-"4-print_rev.c" 20L, 260C                                                                                                               13,3-17       All
