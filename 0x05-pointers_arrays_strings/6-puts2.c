@@ -13,7 +13,7 @@ void puts2(char *str)
 		_putchar(str[len]);
 
 		if (str[len + 1] == '\0')
-		{	
+		{
 			break;
 		}
 	}
