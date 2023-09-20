@@ -9,10 +9,17 @@ void puts_half(char *str)
 	int len = _strlen(str);
 	int i;
 
-	for (i = len / 2; i <= len ;i++)
+	if (len % 2 != 0)
+	{
+		i = (len-1) / 2;
+	}
+	else
+		i = len / 2;
+	for (; i <= len ; i++)
 	{
 		_putchar(str[i]);
 	}
+	_putchar('\n');
 }
 /**
  * _strlen - function to swap 2 values
