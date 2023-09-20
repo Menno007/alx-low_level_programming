@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_array - blabla
  * @a: blabla
@@ -12,9 +13,9 @@ void print_array(int *a, int n)
 	{
 		if (j==(n-1))
 			printf("%d",a[j]);
-	}
 		else
 		{
 			printf("%d, ",a[j]);
 		}
+	}
 }
