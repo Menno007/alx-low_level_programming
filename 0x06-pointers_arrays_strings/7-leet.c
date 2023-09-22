@@ -10,15 +10,15 @@ char *leet(char *s)
 {
 	int i, j;
 
-	char x[10]="aAeEoOtTlL";
-	char y[10] ="4433007711";
+	char x[10] = "aAeEoOtTlL";
+	char y[10] = "4433007711";
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		for (j = 0; j < 10; j++)
 		{
 			if (s[i] == x[j])
-				s[i] = y[j]; 
+				s[i] = y[j];
 		}
 	}
 
