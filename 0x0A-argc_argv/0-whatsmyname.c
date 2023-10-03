@@ -8,5 +8,5 @@
  */
 int main(int argc, char *argv)
 {
-	printf("%d"argc[0]);
+	printf("%i \n", argc[0]);
 }
