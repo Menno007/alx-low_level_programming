@@ -22,6 +22,10 @@ pointer = (void *)malloc(nmemb * size);
 if (pointer == NULL)
 	return (NULL);
 
+/* you can Initialize memory to zero without for loop with memset function */
+
+	/* memset(pointer, 0, nmemb * size); */
+
 for (i = 0; i < (nmemb * size); i++)
 {
 	((char *)pointer)[i] = 0;
