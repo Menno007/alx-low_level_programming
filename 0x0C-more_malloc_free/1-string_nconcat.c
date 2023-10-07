@@ -18,11 +18,11 @@ unsigned long int len1, len2, total_len;
 
 if (s1 == NULL)
 {
-s1 = "";
+	s1 = "";
 }
 if (s2 == NULL)
 {
-s2 = "";
+	s2 = "";
 }
 
 len1 = strlen(s1);
@@ -30,23 +30,23 @@ len2 = strlen(s2);
 
 if (n >= strlen(s2))
 {
-total_len = len1 + len2;
+	total_len = len1 + len2;
 }
 else
 {
-total_len = len1 + n;
-len2 = n;
+	total_len = len1 + n;
+	len2 = n;
 }
 string = malloc(sizeof(char) * (total_len + 1));
 if (string == NULL)
 {
-return (NULL);
+	return (NULL);
 }
 for (i = 0; i < len1; i++)
-string[i] = s1[i];
+	string[i] = s1[i];
 for (j = 0; j < len2; j++, i++)
 {
-string[i] = s2[j];
+	string[i] = s2[j];
 }
 string[i] = '\0';
 return (string);
