@@ -47,6 +47,6 @@ for (j = 0; j < len2 && j < n; j++, i++)
 {
 string[i] = s2[j];
 }
-string[i + j] = '\0';
+string[total_len] = '\0';
 return (string);
 }
