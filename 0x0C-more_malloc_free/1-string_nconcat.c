@@ -21,11 +21,11 @@ len2 = strlen(s2);
 
 if (s1 == NULL)
 {
-return (NULL);
+s1 = "";
 }
 if (s2 == NULL)
 {
-return (NULL);
+s2 = "";
 }
 if (n >= strlen(s2))
 {
