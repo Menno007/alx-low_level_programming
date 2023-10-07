@@ -43,7 +43,7 @@ return (NULL);
 }
 for (i = 0; i < len1; i++)
 string[i] = s1[i];
-for (j = 0; j < len2; j++, i++)
+for (j = 0; j < len2 && j < n; j++, i++)
 {
 string[i] = s2[j];
 }
