@@ -24,7 +24,7 @@ if (pointer == NULL)
 
 for (i = 0; i < (nmemb * size); i++)
 {
-	pointer[i] = 0;
+	((char *)pointer)[i] = 0;
 }
 return (pointer);
 }
