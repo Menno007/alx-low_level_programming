@@ -18,11 +18,11 @@ unsigned long int x = strlen(s1);
 
 if (s1 == NULL)
 {
-s1 = 0;
+return (NULL);
 }
 if (s2 == NULL)
 {
-s2 = 0;
+return (NULL);
 }
 string = malloc(sizeof(char) * (strlen(s1) + strlen(s2) + 1));
 if (string == NULL)
