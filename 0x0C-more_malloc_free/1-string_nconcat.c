@@ -35,7 +35,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		string[i] = s2[j];
 if (n >= strlen(s2))
 {
-string[x + n + strlen(s2)] = '\0';
+string[strlen(s1) + strlen(s2)] = '\0';
 }
 else
 string[x + n] = '\0';
