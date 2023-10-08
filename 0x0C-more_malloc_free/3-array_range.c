@@ -21,15 +21,14 @@ int *array_range(int min, int max)
 
 	/* If malloc fails, return NULL*/
 	if (arr == NULL)
-	{
 		return (NULL);
-	}
 
 	/* Fill the array with values from min to max */
 	for (i = 0; i <= max - min; i++)
-	{
 		arr[i] = min + i;
-	}
-
+	/*
+	*for (i = 0; min <= max; i++)
+    *    ptr[i] = min++;
+	*/
 	return (arr);
 }
