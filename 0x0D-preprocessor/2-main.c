@@ -2,7 +2,7 @@
 /**
  * main - print file name with macro
  *
- * Return: Always (0)
+ * Return: always (0)
 */
 int main(void)
 {
