@@ -12,14 +12,14 @@ list_t *add_node_end(list_t **head, const char *str)
 	struct list_s *ptr, *ptr_end_node;
 
 	ptr = *head;
-	ptr_end_node = (struct list_s *)malloc(sizeof(list_t));
-	if (ptr_end_node == NULL)
-		return (NULL);
+
 	if (str == NULL)
 	{
-		free(ptr_end_node);
 		return (NULL);
 	}
+	ptr_end_node = malloc(sizeof(list_t));
+	if (ptr_end_node == NULL)
+		return (NULL);
 	ptr_end_node->str = strdup(str);
 	ptr_end_node->len = strlen(str);
 	ptr_end_node->next = NULL;
