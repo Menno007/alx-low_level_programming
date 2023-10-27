@@ -20,5 +20,23 @@ int main(void)
 	printf("%u\n", n);
 	n = binary_to_uint("0000000000000000000110010010");
 	printf("%u\n", n);
+	n = binary_to_uint("01");
+	printf("%u\n", n);
+	n = binary_to_uint("0000000000000000000000000000000000000000000000001");
+	printf("%u\n", n);
+	n = binary_to_uint("11111111111111111111111111111111");
+	printf("%u\n", n);
+	n = binary_to_uint("");
+	printf("%u\n", n);
+	//n = binary_to_uint(NULL);
+	//printf("%u\n", n);
+	n = binary_to_uint("Best School !");
+	printf("%u\n", n);
+	n = binary_to_uint("0111010011H0011");
+	printf("%u\n", n);
+	n = binary_to_uint("10111010011001101");
+	printf("%u\n", n);
+	n = binary_to_uint("11111111111111111111111111111111");
+	printf("%u\n", n);
 	return (0);
 }
