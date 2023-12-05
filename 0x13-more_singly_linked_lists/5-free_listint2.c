@@ -6,16 +6,13 @@
  */
 void free_listint2(listint_t **head)
 {
-		if (!head || !(*head))
-			return;
-		if (!(*head)->next)
-		{
-			free(*head);
-			return;
-		}
+	if (!head || !(*head))
+		return;
+	if ((*head)->next)
 		free_listint2(&(*head)->next);
-		*head = NULL;
-		free(*head);
+
+	free(*head);
+	*head = NULL;
 }
 /*
 *void free_listint2(listint_t **head)
