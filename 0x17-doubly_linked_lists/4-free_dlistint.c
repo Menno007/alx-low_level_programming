@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  * free_dlistint - frees a doubly linked list
- * @head: pointer to pointer head
+ * @head: pointer to head
  * Return: Always 0
  */
 void free_dlistint(dlistint_t *head)

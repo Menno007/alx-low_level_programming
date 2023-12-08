@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  * get_dnodeint_at_index - frees a doubly linked list
- * @head: pointer to pointer head
+ * @head: pointer to head
  * @index: the index of the node
  * Return: Always 0
  */
